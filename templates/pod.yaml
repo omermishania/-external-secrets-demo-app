@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: flask-with-es
+  lables:
+    app: myapp
+spec:
+  containers:
+  - name: flask-app
+    image: omermishania/external-secrets-flask-app:latest
+    env:
+      - name: MY-SECRET
+        valueFrom:
+          secretKeyRef:
+            name: mysecret
+            key: matan

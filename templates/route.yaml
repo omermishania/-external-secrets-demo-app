@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Route
+metadata:
+  name: frontend
+spec:
+  host: flask-app.apps.ocp43-dev.cloudlet-dev.com
+  path: "/" 
+  to:
+    kind: Service
+    name: my-service
