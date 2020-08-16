@@ -1,5 +1,2 @@
 client_name: omer-hagever3
-<<<<<<< HEAD
-OC_WILDCARD: "apps.ocp43-dev.cloudlet-dev.com"
-=======
->>>>>>> 2a918932dca3a7c8641820f5f418722fca19d243
+OC_APP_PATH: "apps.ocp43-dev.cloudlet-dev.com"
