@@ -1,10 +1,9 @@
 apiVersion: v1
 kind: Route
 metadata:
-  name: frontend
+  name: demo-app-route
 spec:
-  host: flask-app.apps.ocp43-dev.cloudlet-dev.com
-  path: "/" 
+  host: "es-demo-app.{{ .OC_APP_PATH }}"
   to:
     kind: Service
     name: my-service
