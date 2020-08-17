@@ -1,2 +1,3 @@
 client_name: omer-hagever3
+cluster_name: ocp43-dev
 OC_APP_PATH: "apps.ocp43-dev.cloudlet-dev.com"
