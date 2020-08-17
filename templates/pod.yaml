@@ -12,5 +12,5 @@ spec:
       - name: MY-SECRET
         valueFrom:
           secretKeyRef:
-            name: mysecret
+            name: my-secret
             key: matan
