@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: flask-with-es
-  lables:
+  lable:
     app: myapp
 spec:
   containers:
