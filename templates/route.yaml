@@ -3,7 +3,7 @@ kind: Route
 metadata:
   name: demo-app-route
 spec:
-  host: "es-demo-app.{{ .OC_APP_PATH }}"
+  host: "es-demo.{{ .OC_APP_PATH }}"
   to:
     kind: Service
     name: my-service
