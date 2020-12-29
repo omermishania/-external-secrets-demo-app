@@ -12,5 +12,5 @@ spec:
       - name: MY-SECRET
         valueFrom:
           secretKeyRef:
-            name: privatekeys
-            key: firstkey
+            name: my-secret
+            key: privatekey
