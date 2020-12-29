@@ -13,4 +13,4 @@ spec:
         valueFrom:
           secretKeyRef:
             name: my-secret
-            key: privatekey
+            key: my-secret
